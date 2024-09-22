@@ -1,0 +1,389 @@
+/* Iniciando o home */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #250453;
+    font-family: arial;
+    margin-top: 0px;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: #f9f9f9;
+}
+@font-face {
+    font-family: minhafonte;
+    src: url(Declander-Demo.ttf);
+}
+.logo {
+    list-style: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: left;
+    padding-left: 60px;
+    padding-top: 50px ;
+    display: block;
+    font-family: 'minhafonte';
+    color: #000000;
+    
+}
+
+/*Inicio do cabeçalho */
+#header {
+    width: 900px;
+    height: 140px;
+     /*centraliza menu*/
+    margin: 10px auto;
+    background: #5509c7;
+
+}
+
+
+#nav {
+    list-style: none;
+    /*retira marcadores*/
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 60px;
+    
+}
+
+
+#nav li {
+    float: left;
+    margin-left: 50px;
+    padding-bottom: 100px;
+}
+
+#nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 8px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    border-bottom: 5px  #0011ff;
+    opacity: 0.5;
+    color: #fafafa;
+}
+
+ul#nav a.ativa {
+    border-bottom: 5px  #0011ff;
+}
+
+/*fim do cabeçalho */
+
+#section {
+    width: 900px;
+    height: 350px;
+    background: #F0FFF0;
+    margin: 15px auto;
+}
+.article {
+    width: 700px;
+    float: left;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.article h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 4px;
+    font-family: 'minhafonte';
+}
+
+.article p {
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* baner */
+#banner {
+    margin-top: 15px;
+    width: 900px;
+    height: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+/* fim area banner */
+
+/*  area rodapé */
+#footer {
+    width: 900px;
+    height: 50px;
+    background: #5509c7;
+    float: left;    
+    margin: 10px  auto;
+    padding-top: 15px;
+    margin-left: 345px;
+}
+
+#footer p {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'minhafonte';
+}
+
+#footerB {
+    width: 900px;
+    height: 50px;
+    background: #5509c7;
+    float: left;    
+    margin: 10px  auto;
+    padding-top: 15px;
+}
+
+#footerB {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'minhafonte';
+}
+/* fim area rodape */
+
+/*Codificação da página contato*/
+#section_c {
+    width: 900px;
+    height: 510px;
+    background: #fafafa;
+    margin: 1px auto;
+}
+
+.contato {
+    width: 900px;
+    height: 300px;
+    margin: 5px 5px;
+    
+
+}
+
+.contato h1 {
+    font-size: 25px;
+}
+
+.contato textarea {
+    resize: none;
+}
+
+.contato1 {
+    padding-right: 50px;
+    margin-top: 50px;
+  float:right
+  
+}
+
+/* sobre */
+#sectionb {
+    width: 900px;
+    height: 650px;
+    background: #fafafa;
+    margin: 1px auto;
+}
+
+#sobre p{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    margin: 10px;
+}
+
+#sobreA p{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: -530px;
+}
+#sobreimg{
+    padding-left: 450px;
+}
+
+/*fim sobre*/
+
+/* desafios */
+#sectionD{
+    width: 900px;
+    height: 650px;
+    background: #fafafa;
+    margin: 1px auto;
+}
+
+#desafiosA{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    margin: 10px;
+    padding-left: 430px;
+}
+
+#imgdesafioB{
+    margin-top: -570px;
+    margin-left: 10px;
+}
+
+#imgdesafioC{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#imgdesafioD{
+    margin: 10px;
+    padding-top: 10px;
+}
+/* fim desafios */
+
+/* Medalhas */
+#sectionE{
+    width: 900px;
+    height: 650px;
+    background: #fafafa;
+    margin: 1px auto;
+}
+
+#medalhasA{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+#medalhasvid{
+    margin: 50px;
+}
+
+/* fim medalhas */
+
+/* destaques */
+#sectionF{
+    width: 900px;
+    height: 850px;
+    background: #fafafa;
+    margin: 1px auto;
+}
+
+#destaquesA{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+#destaquesB{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+#destaquesA{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#imgdestaquesB{
+  padding-left: 480px;
+  margin-top: -400px;
+}
+
+/* fim destaques*/
+
+/*RESPONSIVIDADE celulares	*/
+@media screen and (min-width:330px) and (max-width:480px) {
+
+    body,
+    div {}
+
+    #footer {
+        margin-left: 0px;
+    }
+}
+
+/*RESPOVIVIDADE Ipad  e ipad mini*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    /*ipad*/
+    body,
+    div {}
+
+    #footer {
+        margin-left: 0px;
+    }
+}
+
+/*RESPONSIVIDADE ipad air	*/
+@media screen and (min-width:820px) and (max-width:1190px) {
+
+    body,
+    div {}
+
+    #footer {
+        margin-left: 0px;
+    }
+}
+
+/* ipadpro */
+@media screen and (min-width:1024px) and (max-width:1366px) {
+
+    body,
+    div {}
+
+    #footer {
+        margin-left: 65px;
+    }
+}
+
+/* nokia lumia 520 */
+@media screen and (min-width:320px) and (max-width:533px) {
+
+    body,
+    div {}
+
+    #footer {
+        margin-left: 0px;
+    }
+}
+
+/* Net hub max */
+@media screen and (min-width:1208px) and (max-width:1280px) {
+
+    body,
+    div {}
+
+    #footer {
+        margin-left: 190px;
+    }
+}
